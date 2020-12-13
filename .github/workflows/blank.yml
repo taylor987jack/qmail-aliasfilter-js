@@ -1,0 +1,63 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+zT)uv柰橦c?-徥讑h淼齿洵涠婹廖?%殞衹$紭6ZW_t8
+?柀
+[赙??
+3鴚??佞捛?=砉$柭況-按\澡拥
+h4_&蠏y?8g4!75?
+K4.P㏎拄"苟鴸A?;並鐽~>蒋岥?#?劭?+赃;∟蹁鉅鑈c增D?€?
+F*贉s8M筍缐?~fO肔W嘘呦ニ
+N?0渐?岴?4P檽.~?>奟!W       堻嘴
+?-R?┙俫)?彾刏睿
+#亻鄮韎t=X?:E陣9鸑铕僕|gu褦d\?!皒?&吂
+顾?^f)?!O!q?
+枖(孃
+猕穷?捹辤西軕蹌邰宆君? 破駔w]r?#牋U祻愵?#喢)j?|堟
+X
+?象誎楺婻粖蠼h$鸝p蟎m孿躤?
+
+譟1貐;嶤?@W.v蕵V厍?/?'B齗qd悪=邮鎆奲Sw)\h嚔|呣
+7购抶~峯w歠?欠?=溅@ゴw1?%9璂?^?!偪?糡覌"W煛?*姲煫w罽`??)赎閪!
+撓D鮜B镗巟鐠品zy饼曆&}iW僵$伙?,x>彍=`Q縄R鷐埡?*?.茏€?!dH鎬$B9㈡^覒?ｙ渟鮵釡丗鐜鐾盌蟨I謮q.入O$?)L苋逕┣b緟凶煽?  侧楲{\?咓魦飾胧?!┰墣#N髪?軶覅阶倂?*葂?/殲憓?;€?(鏇哨R???惹貪%N?-歆???,$镐tL冉LL?8V惢g尚A"e蠮搒嘞)m僃勤砝忕;堳)歓n靫T$?+?｛羪
+?4?'囝0>J垶怲嫨?!a?8唊2>€?
+盠?? 违砃B鯼贁攁?
+E鎑?-Y聆{%?濯?5?栾溆儰 [O?ku⒆滩A       鋝詿饍偯?
+斃?:+葆(悼沊?
+惬藀??p?%E`A     
+玸僓^s殨@iBT?'?憊P"2S?<覹9啀<剮i産a@?0倇qJ;??笊灷飆d鴛?8繨\?+]?/j`a?6杞? ?<2?餬xq;>a??泰蠶鏪*D5那?mq瀤腬?谀Bx婧?
+€惙`??;0YZ
+
+          echo Add other actions to build,
+          echo test, and deploy your project.
